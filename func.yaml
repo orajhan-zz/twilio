@@ -1,13 +1,13 @@
 schema_version: 20180708
 name: twilio
-version: 0.0.20
+version: 0.0.2
 runtime: python
 entrypoint: /python/bin/fdk /function/func.py handler
 memory: 1024
 timeout: 120
 config:
-  message: Message from Twilio! Hello Jhan
-  my_account_sid: ACe1ee4d0fe80437fcb6c8dfe7115ba706
-  my_auth_token: db78a06b4691a66132989ed38b9abcdb
-  send_to: "+6590049731"
-  sms_from: "+14049946759"
+  message: 'Message from Twilio! Hello Jhan'
+  my_account_sid: 'Your Twilio Account SID'
+  my_auth_token: 'Your Twilio Auth Token'
+  send_to: "Phone number"
+  sms_from: "Your Twilio Phone number"
