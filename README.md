@@ -1,4 +1,4 @@
-# Send a SMS using Twilio using OCI Function
+# Send a SMS via Twilio using OCI Function
 https://docs.cloud.oracle.com/en-us/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm#
 
 PagerDuty has been integrated with OCI Notofication Service but PagerDuty is not the only option to send a SMS.
